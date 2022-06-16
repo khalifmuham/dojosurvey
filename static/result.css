@@ -1,0 +1,38 @@
+*{
+    margin: 0 auto;
+}
+
+.parent{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(49, 46, 46);
+    margin-top: 20px;
+    text-align: left;
+}
+
+.name{
+    color: dodgerblue;
+    font-size: 35px;
+}
+
+.btn{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+h5{
+    color:white ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    color: crimson;
+}
+
+.pbody{
+    margin-left: 20px;
+}
+.text{
+    font-size: 15px;
+}

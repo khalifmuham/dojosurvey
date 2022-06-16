@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'result.css')}}">
+</head>
+<body>
+    <div class="parent">
+        <div class="pbody">
+            <!-- <h2>Submission</h2> -->
+            <h5 class="name"> {{name}} </h5>
+            <h5 class="text"> Dojo location: {{location}} </h5>
+            <h5 class="text">Language: {{language}} </h5>
+            <h5 class="text">Comments: {{comment}} </h5>
+        
+        <form action="/">
+            <a href="http://127.0.0.1:5000/" class="btn"> HOME </a>
+            <!-- <button class="btn"> Go back</button> -->
+        </form>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

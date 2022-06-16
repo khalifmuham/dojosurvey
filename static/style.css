@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    /* background-color: lightgray; */
+} 
+
+h1{
+    color: yellow;
+    margin-left: 20px;
+}
+form{
+    margin-left: 20px;
+}
+.parentbox{
+    width:400px ;
+    height: 350px;
+    background-color: rgb(49, 46, 46);
+    margin-top: 20px;
+}
+.title{
+    color: white;
+} 
+
+#submit{
+    color: black;
+}
+#submit:hover{
+    color: blue;
+}
